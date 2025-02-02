@@ -153,6 +153,7 @@ h6 {
 .introductionText .aboutButton a:hover {
     color: #6CA69C;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .aboutButton a:link {
