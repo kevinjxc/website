@@ -10,3 +10,7 @@ document.querySelectorAll(".item").forEach(n => n.addEventListener("click", () =
     hamburger.classList.remove("active");
     menu.classList.remove("active");
 }))
+
+function pageAbout() {
+    window.location.href = "./about";
+}
