@@ -12,5 +12,5 @@ document.querySelectorAll(".item").forEach(n => n.addEventListener("click", () =
 }))
 
 function pageAbout() {
-    window.location.href = "./about";
+    window.location.href = "about.html";
 }

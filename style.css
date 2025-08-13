@@ -9,7 +9,7 @@ h1 {
     text-align: center;
     font-family: Lexend;
     font-weight: lighter;
-    color: #003262;
+    color: #004994;
 }
 
 h2 {
@@ -18,7 +18,7 @@ h2 {
     font-family: Lexend Deca;
     font-weight: 500;
     line-height: 2rem;
-    color: #003262;
+    color: #004994;
 }
 
 h3 {
@@ -26,8 +26,8 @@ h3 {
     font-size: 1.2rem;
     font-family: Lexend Deca;
     font-weight: 500;
-    line-height: 2rem;
-    color: #003262;
+    line-height: 2.375rem;
+    color: #004994;
     margin-left: 2rem;
 }
 
@@ -36,8 +36,8 @@ h4 {
     font-size: 1.15rem;
     font-family: Lexend Deca;
     font-weight: 500;
-    line-height: 1.9rem;
-    color: #003262;
+    line-height: 2.2rem;
+    color: #004994;
 }
 
 h5 {
@@ -45,7 +45,7 @@ h5 {
     text-align: center;
     font-family: Lexend;
     font-weight: lighter;
-    color: #003262;
+    color: #004994;
     margin-bottom: -1.5rem;
 }
 
@@ -55,17 +55,17 @@ h6 {
     font-family: Lexend Deca;
     font-weight: 500;
     line-height: 2rem;
-    color: #003262;
+    color: #004994;
 }
 
 ::selection {
     color: #F2F2F2;
-    background-color: #003262;
+    background-color: #004994;
 }
 
 ::-moz-selection {
     color: #F2F2F2;
-    background-color: #003262;
+    background-color: #004994;
 }
 
 .navigation {
@@ -83,7 +83,7 @@ h6 {
 .menu ul {
     display: flex;
     list-style: none;
-    color: #003262;
+    color: #004994;
     font-family: Lexend;
     text-decoration: none;
 }
@@ -94,31 +94,23 @@ h6 {
 }
 
 .menu a:link {
-    color: #003262;
+    color: #004994;
     text-decoration: none;
 }
 
 .menu a:visited {
-    color: #003262;
+    color: #004994;
     text-decoration: none;
 }
 
 .menu a:hover {
-    color: #6CA69C;
+    color: #ABD1F3;
     text-decoration: none;
 }
 
 .menu a:active {
-    color: #003262;
+    color: #004994;
     text-decoration: none;
-}
-
-.introductionContainer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 1rem;
-    margin-bottom: 4rem;
 }
 
 .headshot {
@@ -128,31 +120,41 @@ h6 {
     margin-right: auto;
 }
 
+.introductionContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
 .introductionText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 60%;
-    color: #003262;
+    color: #004994;
+    text-align: center;
+    margin-top: -2rem;
 }
 
 .introductionText .aboutButton {
     width: 17rem;
     height: 2.4rem;
-    position: relative;
-    top: 7.5%;
-    left: 50%;
     color: #F2F2F2;
-    background-color: #003262;
+    background-color: #004994;
     font-size: 1rem;
     font-family: Lexend;
     font-weight: lighter;
     border: none;
     border-radius: 0.5rem;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     cursor: pointer;
 }
 
 .introductionText .aboutButton a:hover {
-    color: #6CA69C;
+    color: #ABD1F3;
     text-decoration: none;
     cursor: pointer;
 }
@@ -183,6 +185,10 @@ h6 {
     transition: height 0.3s ease;
 }
 
+.accordion .content h2 {
+    line-height: 2.2rem;
+}
+
 .accordion > input[type="checkbox"]:checked ~ .content {
     height: auto;
     overflow: visible;
@@ -207,11 +213,11 @@ h6 {
     font-size: 1.2rem;
     font-family: "Lexend Deca";
     font-weight: 500;
-    color: #003262;
+    color: #004994;
 }
 
 .accordion label {
-    color: #003262;
+    color: #004994;
     cursor: pointer;
     font-weight: normal;
     padding: 1rem;
@@ -235,20 +241,13 @@ h6 {
     content: "↓";
 }
 
+.accordion.project {
+    margin-bottom: 1em;
+}
+
 .hamburger {
     display: none;
     cursor: pointer;
-}
-
-.bar {
-    display: block;
-    width: 1.5625rem;
-    height: 0.188rem;
-    margin: 0.313rem auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: #003262;
-    border-radius: 4rem;
 }
 
 body::-webkit-scrollbar {
@@ -294,6 +293,7 @@ body::-webkit-scrollbar {
 
 .row {
     display: flex;
+    gap: 1rem;
 }
 
 .column {
@@ -304,84 +304,39 @@ body::-webkit-scrollbar {
     flex: 50%;
 }
 
-.projectAccordian > input[type="checkbox"] {
-    position: absolute;
-    left: -100vw;
-}
-
-.projectAccordian .content {
-    overflow-y: hidden;
-    height: 0;
-    transition: height 0.3s ease;
-}
-
-.projectAccordian > input[type="checkbox"]:checked ~ .content {
-    height: auto;
-    overflow: visible;
-}
-
-.projectAccordian label {
-    display: block;
-}
-
-.projectAccordian {
-    margin-bottom: 1em;
-}
-
-.projectAccordian > input[type="checkbox"]:checked ~ .content {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
-    border: 0.5rem;
-}
-
-.projectAccordian .handle {
-    font-size: 1.2rem;
-    font-family: "Lexend Deca";
-    font-weight: 500;
-    color: #003262;
-}
-
-.projectAccordian label {
-    color: #003262;
-    cursor: pointer;
-    font-weight: normal;
-    padding: 1rem;
-    background: #E6E6E6;
-    border-radius: 0.75rem;
-}
-
-.projectAccordian label:hover, .accordion label:focus {
-    background: #D6D6D6;
-}
-
-.projectAccordian .handle label:before {
-    content: "→";
-    display: inline-block;
-    margin-right: 10px;
-    font-size: 1.2rem;
-    line-height: 1.556em;
-}
-
-.projectAccordian > input[type="checkbox"]:checked ~ .handle label:before {
-    content: "↓";
-}
 
 .projectImage {
     border-radius: 0.75rem;
-    width: 60%;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1.5rem;
+}
+
+.column, .columnTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.media-item {
+    display: block;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.media-item a {
+    display: inline-block;
 }
 
 .featureImage {
     border-radius: 0.75rem;
-    width: 90%;
+    width: 100%;
+    max-width: 25rem;
+    height: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
+    margin: 0 auto;
 }
 
 .surroundsAbout {
@@ -403,7 +358,7 @@ body::-webkit-scrollbar {
     margin: 0.313rem auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #003262;
+    background-color: #004994;
     border-radius: 4rem;
 }
 
@@ -461,11 +416,6 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 950px) {
-    .comingSoon {
-        width: 75%;
-        margin-top: 2rem;
-    }
-
     .headshot {
         margin-top: 1rem;
         width: 75%;
@@ -496,7 +446,7 @@ body::-webkit-scrollbar {
         top: 4.5rem;
         gap: 0;
         flex-direction: column;
-        background-color: #003262;
+        background-color: #004994;
         width: 100%;
         text-align: right;
         transition: 0.3s;
@@ -521,7 +471,7 @@ body::-webkit-scrollbar {
     }
 
     .menu a:hover {
-        color: #6CA69C;
+        color: #ABD1F3;
         text-decoration: none;
     }
 
@@ -566,7 +516,7 @@ body::-webkit-scrollbar {
         font-size: 1rem;
         font-family: "Lexend Deca";
         font-weight: 500;
-        color: #003262;
+        color: #004994;
     }
 
     h6 {
@@ -580,11 +530,6 @@ body::-webkit-scrollbar {
 
     .accordion {
         margin-bottom: -3rem;
-    }
-
-    .comingSoon {
-        width: 90%;
-        margin-top: 2rem;
     }
 }
 
@@ -604,7 +549,7 @@ body::-webkit-scrollbar {
         font-size: 0.8rem;
         font-family: "Lexend Deca";
         font-weight: 500;
-        color: #003262;
+        color: #004994;
     }
 
     h6 {

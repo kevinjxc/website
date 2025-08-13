@@ -19,11 +19,11 @@
         <nav class="navigation">
             <div class="menu">
                 <ul>
-                    <li><a class="item" href="https://kevinjxc.github.io/website/">Home</a></li>
-                    <li><a class="item" href="./about">About</a></li>
-                    <li><a class="item" href="./projects">Projects</a></li>
-                    <li><a class="item" href="./experience">Experience</a></li>
-                    <li><a class="item" href="./features">Features</a></li>
+                    <li><a class="item" href="index.html">Home</a></li>
+                    <li><a class="item" href="about.html">About</a></li>
+                    <li><a class="item" href="academics.html">Academics</a></li>
+                    <li><a class="item" href="experience.html">Experience</a></li>
+                    <li><a class="item" href="media.html">Media</a></li>
                 </ul>
             </div>
 
@@ -34,168 +34,154 @@
             </div>
         </nav>
 
-        <h5 style="text-align: left;">Education</h5>
+        <div class="row">
+            <div class="columnTop">
+                <section class="accordion project">
+                    <input type="checkbox" name="collapse" id="handle1">
+                    <h2 class="handle">
+                        <label for="handle1"><b>UpSTREAM Program</b></label>
+                    </h2>
+                    <div class="content">
+                        <a href="https://www.upstreamprogram.org/" target="_blank">
+                            <img class="projectImage" src="upstream-program.png" alt="UpSTREAM">
+                        </a>
+                        <h2>
+                           UpSTREAM delivers accessible STEM education through tutoring, webinars, and workshops.
+                           As founder and director, Kevin developed an engaging curriculum and
+                           mentored middle and high schoolers to collaboratively design the program's user-responsive website.
+                           He oversees all logistics and operations, and manages communications with the program's stakeholders.
+                        </h2>
+                    </div>
+                </section>
 
-        <section class="accordion">
-            <input type="checkbox" name="collapse0" id="handle1">
+                <section class="accordion project">
+                    <input type="checkbox" name="collapse2" id="handle3">
 
-            <h6 class="handle">
-            <label for="handle1">University of California, Berkeley</label>
-            </h6>
+                    <h2 class="handle">
+                    <label for="handle3"><b>Social Futures Lab</b></label>
+                    </h2>
 
-            <div class="content">
-                <h6>
-                    Overview<br>
-                    August 2024 – May 2028<br><br>
+                    <div class="content">
+                        <a href="https://social.cs.washington.edu/sfl-curriculum/" target="_blank"><img class="projectImage" src="social-futures-lab.png" alt="Social Computing Curriculum"></a>
+                        <h2>
+                            The Social Futures Lab at UW CSE is reimagining social and collaborative systems in software.
+                            As a research assistant, Kevin designed a social computing curriculum,
+                            partnered with Seattle Public Schools to implement the curriculum in middle and high school classrooms,
+                            and co-authored a publication with his team's findings for the ACM SIGCSE Technical Symposium in 2024.
+                        </h2>
+                    </div>
+                </section>
 
-                    Notable Courses<br>
-                    Fall 2024: MATH 1A (Calculus), COMPSCI 61A (Structure & Interpretation of Computer Programs)
-                </h6>
+                <section class="accordion project">
+                    <input type="checkbox" name="collapse4" id="handle5">
+
+                    <h2 class="handle">
+                    <label for="handle5"><b>30+</b></label>
+                    </h2>
+
+                    <div class="content">
+                        <a href="https://30math.itch.io/30math" target="_blank"><img class="projectImage" src="30+.png" alt="30+"></a>
+                        <h2>
+                            30+ is a math game developed with C# and Unity to address the learning loss faced by students nationwide.
+                            Kevin designed the game to support elementary students strengthen their fact fluency through
+                            a series of progressively difficult challenges.
+                            The game has been shared with classrooms across Seattle, engaging young learners in building their math skills.
+                        </h2>
+                    </div>
+                </section>
+
+                <section class="accordion project">
+                    <input type="checkbox" name="collapse6" id="handle7">
+                    <h2 class="handle">
+                    <label for="handle7"><b>Spelling Bee</b></label>
+                    </h2>
+                    <div class="content">
+                        <a href="https://studio.code.org/projects/applab/hqO9T2wFu-ZvtQ9TieCUN4HEgMPkuynFDhrVgw2a-nA" target="_blank"><img class="projectImage" src="spelling-bee.png" alt="Spelling Bee"></a>
+                        <h2>
+                            Spelling Bee is a literacy game created with JavaScript to help students strengthen their phonetic skills.
+                            Kevin designed the game to support elementary students in improving their literacy through interactive spelling challenges.
+                            The game has been shared with classrooms nationwide,
+                            engaging young learners in practicing both their phonetic and keyboard skills.
+                        </h2>
+                    </div>
+                </section>
+            </div><br>
+
+            <div class="column">
+                <section class="accordion project">
+                    <input type="checkbox" name="collapse1" id="handle2">
+                    <h2 class="handle">
+                    <label for="handle2"><b>Amazon</b></label>
+                    </h2>
+                    <div class="content">
+                        <a href="https://www.amazon.com/" target="_blank"><img class="projectImage" src ="amazon.png" alt="Amazon"></a>
+                        <h2>
+                            Amazon is a global e-commerce leader with a range of products across international markets.
+                            As a software development engineer, Kevin developed a metadata replication feature to improve Amazon’s regional experimentation system.
+                            This enhancement supported seven marketplaces across North America, Europe, and Asia,
+                            increasing profits for global stakeholders.
+                        </h2>
+                    </div>
+                </section>
+
+                <section class="accordion project">
+                    <input type="checkbox" name="collapse3" id="handle4">
+                    <h2 class="handle">
+                        <label for="handle4"><b>Project Sidewalk</b></label>
+                    </h2>
+                    <div class="content">
+                        <a href="https://sidewalk-chicago.cs.washington.edu/" target="_blank">
+                            <img class="projectImage" src="project-sidewalk.png" alt="Project Sidewalk">
+                        </a>
+                        <h2>
+                            Project Sidewalk is an international platform that allows users to crowdsource information on sidewalk accessibility.
+                            As a software engineer with UW CSE, Kevin debugged the website to improve functionality and user experience.
+                            He also internationalized the platform for users across four continents and 21 cities,
+                            including Amsterdam, Chicago, Mexico City, and Taipei.
+                        </h2>
+                    </div>
+                </section>
+
+                <section class="accordion project">
+                    <input type="checkbox" name="collapse5" id="handle6">
+
+                    <h2 class="handle">
+                    <label for="handle6"><b>One</b></label>
+                    </h2>
+
+                    <div class="content">
+                        <a href="https://studio.code.org/projects/applab/2qNoVop1-_vnkn1sgzmEC-fcRe_dE2PaPwhb-j8rP5A" target="_blank"><img class="projectImage" src="one.png" alt="One"></a>
+                        <h2>
+                            One is an app designed to educate and inspire youth to take action on environmental issues like pollution, climate change, and water conservation.
+                            Built with JavaScript, the app is part of several local elementary school curriculums.
+                            The concept reflects Kevin's long-time passion for the environment,
+                            especially in light of the world’s pressing climate challenges.
+                        </h2>
+                    </div>
+                </section>
+
+                <section class="accordion project">
+                    <input type="checkbox" name="collapse7" id="handle8">
+
+                    <h2 class="handle">
+                    <label for="handle8"><b>Blind Cleaners Co.</b></label>
+                    </h2>
+
+                    <div class="content">
+                        <a href="https://www.blindcleanersco.com/" target="_blank"><img class="projectImage" src="blind-cleaners-co.png" alt="Blind Cleaners Co."></a>
+                        <h2>
+                            Blind Cleaners Co. is a Seattle-based business focused on ultrasonic blind cleaning.
+                            Kevin designed and developed the company’s website to enhance customer engagement and streamline service inquiries.
+                            He also supported efforts to scale operations by
+                            improving online visibility, optimizing logistics, and contributing to strategic planning for regional growth.
+                        </h2>
+                    </div>
+                </section>
             </div>
-        </section>
-
-        <section class="accordion">
-            <input type="checkbox" name="collapse1" id="handle2">
-
-            <h6 class="handle">
-            <label for="handle2">Edmonds College</label>
-            </h6>
-
-            <div class="content">
-                <h6>
-                    Overview<br>
-                    September 2023 – June 2024<br><br>
-
-                    Notable Courses<br>
-                    2023-24: Math 146 (Introduction to Statistics)
-                </h6>
-            </div>
-        </section>
-
-        <section class="accordion">
-            <input type="checkbox" name="collapse2" id="handle3">
-
-            <h6 class="handle">
-            <label for="handle3">Cleveland STEM High School</label>
-            </h6>
-
-            <div class="content">
-                <h6>
-                    Overview<br>
-                    September 2020 – June 2024<br><br>
-
-                    Notable Courses<br>
-                    2021-22: AP® Computer Science Principles<br>
-                    2022-23: AP® Chemistry, AP® Computer Science A, AP® Chinese Language & Culture, AP® Calculus AB, AP® Calculus BC (Self-Study)<br>
-                    2023-24: AP® Physics 1, AP® Environmental Science, AP® Statistics
-                </h6>
-            </div>
-        </section>
-
-        <h5 style="text-align: left;">Volunteering</h5>
-        <section class="accordion">
-            <input type="checkbox" name="collapse3" id="handle4">
-
-            <h6 class="handle">
-                <label for="handle4">P-Patch Volunteer | Beacon Food Forest</label>
-            </h6>
-
-            <div class="content">
-                <h6>
-                    Overview<br>Since kindergarten, Kevin has been a P-Patch Volunteer with the Beacon Food Forest, being engrained onto many milestones including plaques and promotions as the site expanded.<br><br>
-                    Notable Roles<br>
-                    Attended community work parties to maintain premises.<br>
-                    Increased community engagement through social media promotions.<br>
-                    Provided entertainment through musical performances during events.
-                </h6>
-            </div>
-        </section>
-
-        <section class="accordion">
-            <input type="checkbox" name="collapse4" id="handle5">
-
-            <h6 class="handle">
-                <label for="handle5">Assistant Coach | Rainier District Little League</label>
-            </h6>
-
-            <div class="content">
-                <h6>
-                    Overview<br> Kevin volunteered for various Rainier District Little League teams, assisting coaches during games and practices to increase engagement among players and their families.<br><br>
-                    Notable Roles<br>
-                    Hosted biweekly practices focusing on players needing assistance.<br>
-                    Communicated important information between coaches and families.<br>
-                    Managed players during games to ensure smooth operation on gameday.
-                </h6>
-            </div>
-        </section>
-
-        <section class="accordion">
-            <input type="checkbox" name="collapse5" id="handle6">
-
-            <h6 class="handle">
-                <label for="handle6">Student Conservationist | Trees for Equity in Education (TrEE) Project</label>
-            </h6>
-
-            <div class="content">
-                <h6>
-                    Overview<br>
-                    Along with his class, Kevin was part of the inaugural year of the TrEE Project at Cleveland STEM High School, a project that has guided restoration efforts in the local Maple School Ravine.<br><br>
-                    Notable Roles<br>
-                    Collaborated with school to restore habitat of the Maple School Ravine.<br>
-                    Studies species diversity and biotic interactions through scientific analysis.<br>
-                    Removed invasive ivy and raspberries and planted native plants around the premises.<br>
-                </h6>
-            </div>
-        </section>
-
-        <h5 style="text-align: left;">Accomplishments</h5>
-        <section class="accordion">
-            <input type="checkbox" name="collapse6" id="handle7">
-
-            <h6 class="handle">
-                <label for="handle7">The Gates Scholarship Recipient</label>
-            </h6>
-
-            <div class="content">
-                <h6>
-                    Overview<br>The Gates Scholarship, funded by the Bill and Melinda Gates Foundation, is a last-dollar scholarship program for
-                    outstanding high school seniors in the United States. Each year, outstanding student leaders are recognized at The Gates Scholarship Summer Institute.
-                </h6>
-            </div>
-        </section>
-
-        <section class="accordion">
-            <input type="checkbox" name="collapse7" id="handle8">
-
-            <h6 class="handle">
-                <label for="handle8">AP® Scholar with Distinction Award</label>
-            </h6>
-
-            <div class="content">
-                <h6>
-                    Overview<br>Kevin earned the AP® Scholar with Distinction Award from the College Board in July 2023.
-                    This distinction is granted to students who receive an average score of at least 3.5 on all AP® exams taken, and scores of 3 or higher on five or more of these exams.
-                </h6>
-            </div>
-        </section>
-
-        <section class="accordion">
-            <input type="checkbox" name="collapse8" id="handle9">
-
-            <h6 class="handle">
-                <label for="handle9">Washington State Seal of Biliteracy</label>
-            </h6>
-
-            <div class="content">
-                <h6>
-                    Overview<br>The Washington State Seal of Biliteracy recognizes public high school graduates who have attained proficiency in
-                    English and one or more world languages. As a quadrilingual, Kevin is proficient in English, Mandarin, Cantonese, and Taishanese.
-                </h6>
-            </div>
-        </section><br>
+        </div>
 
         <div class="footer">
-            <h2 style="text-align: center; margin-top: 1rem;">© 2025 Kevin Chen</h2>
+            <h2 style="text-align: center; margin-top: 1rem;"><b>© 2025 Kevin Chen</b></h2>
         </div>
 
         <div class="social-media-bar">
@@ -205,8 +191,11 @@
             <a href="https://www.linkedin.com/in/kevinjxc/" target="_blank" class="social-icon">
                <img src="linkedin.png" alt="linkedin"/>
             </a>
+            <a href="https://www.berkeley.edu/" target="_blank" class="social-icon">
+               <img src="berkeley.png" alt="berkeley"/>
+            </a>
             <a href="https://www.kevinjxc.com" target="_blank" class="social-icon">
-               <img src="github.png" alt="github"/>
+               <img src="website.png" alt="website"/>
             </a>
          </div>
 
