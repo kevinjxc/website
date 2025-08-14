@@ -511,6 +511,24 @@ body::-webkit-scrollbar {
     }
 }
 
+@media (max-width: 700px) {
+  .row {
+    margin-top: 2rem
+  }
+
+  body.experience-page .accordion h2 {
+    font-size: 1.05rem;
+  }
+
+  body.academics-page h5 {
+    font-size: 1.15rem;
+  }
+
+  body.academics-page .accordion h6 {
+    font-size: 1.05rem;
+  }
+}
+
 @media (max-width: 650px) {
     .accordion .handle {
         font-size: 1rem;
